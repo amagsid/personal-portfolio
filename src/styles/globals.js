@@ -51,6 +51,50 @@ const GlobalStyles = createGlobalStyle`
     position: relative;
     left: 50px;
   }
+
+  .custom-button{
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+
+  // .custom-button{
+  //   border-image:linear-gradient(to right,#13ADC7 ,#945DD6) 1;
+  //   width: 200px;
+  //   font-size:2rem;
+  //   border-radius:20px;
+
+  //   &:hover {
+  //     box-shadow: 3px 3px 10px rgba(80, 78, 78, 0.3);
+  //     transform: scale(0.98);
+  //     transition-duration: 0.1s;
+  //     background:linear-gradient(90deg, #13ADC7 35%, #945DD6 100%);
+  //     color:white
+   
+  //   }
+  
+  // }
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+  
+
+
+  
   
 
 `;

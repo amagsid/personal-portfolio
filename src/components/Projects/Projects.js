@@ -1,4 +1,5 @@
 import React from 'react';
+import { Row, Container, Col, Button } from 'react-bootstrap';
 
 import {
   BlogCard,
@@ -22,8 +23,23 @@ import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <Section nopadding id='projects'>
-    <SectionDivider />
+    {/* <SectionDivider /> */}
     <SectionTitle main>Projects</SectionTitle>
+
+    {/* <div className='card-anim transition'>
+      <h2 className='transition card-h2'>Awesome Headline</h2>
+      <p className='card-parag'>
+        Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla
+        non metus auctor fringilla.
+      </p>
+      <div className='cta-container transition'>
+        <a href='#' className='cta'>
+          Call to action
+        </a>
+      </div>
+      <div className='card_circle transition'></div>
+    </div> */}
+
     <GridContainer>
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
@@ -42,10 +58,28 @@ const Projects = () => (
                 ))}
               </TagList>
             </div>
-            <UtilityList>
-              <ExternalLinks href={visit}>code</ExternalLinks>
-              <ExternalLinks href={source}>Live Site</ExternalLinks>
-            </UtilityList>
+            {/* <UtilityList> */}
+            <div className='d-grid gap-2'>
+              <Button
+                variant='outline-info'
+                size='lg'
+                href={visit}
+                target='_blank'
+              >
+                Source code
+              </Button>
+              <Button
+                variant='outline-light'
+                size='lg'
+                href={source}
+                target='_blank'
+              >
+                Live demo
+              </Button>
+            </div>
+            {/* <ExternalLinks href={visit}>source code</ExternalLinks>
+              <ExternalLinks href={source}>Live Demo</ExternalLinks> */}
+            {/* </UtilityList> */}
           </BlogCard>
         )
       )}

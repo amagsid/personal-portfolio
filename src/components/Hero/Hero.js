@@ -1,11 +1,14 @@
 import React from 'react';
+// import CV from '../../constants/CV.pdf';
+// import { Button } from 'react-bootstrap';
+import { GrDocumentPdf } from 'react-icons/gr';
 
 import {
   Section,
   SectionText,
   SectionTitle,
 } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
+// import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = () => (
@@ -15,7 +18,7 @@ const Hero = () => (
         Hello! <br />
         I'm Ahmad
       </SectionTitle>
-      <SectionText style={{ width: '700px' }}>
+      <SectionText style={{ width: '700px', paddingBottom: '0' }}>
         Aspiring web developer on the lookout for a starter position in which I
         can put my passion for building seamless experiences into application
         while learning and growing
@@ -24,15 +27,18 @@ const Hero = () => (
           motto: do it with passion or not at all{' '}
         </SectionTitle>
       </SectionText>
-      <Button
+      {/* <a href={CV} download='Ahmad_CV.pdf'>
+        <Button>download my CV</Button>{' '}
+      </a> */}
+      <form
+        action='https://docs.google.com/presentation/d/1qbSAAHeFpKL9SXeSNA8Wc8BR6har-1OFzQ9qVkAQNfA/edit?usp=sharing'
+        method='get'
         target='_blank'
-        onClick={() =>
-          (window.location =
-            'https://docs.google.com/presentation/d/1qbSAAHeFpKL9SXeSNA8Wc8BR6har-1OFzQ9qVkAQNfA/edit?usp=sharing')
-        }
       >
-        download my CV
-      </Button>
+        <button className='offset' type='submit'>
+          download my CV <GrDocumentPdf style={{ color: 'white' }} size={20} />{' '}
+        </button>
+      </form>
     </LeftSection>
   </Section>
 );

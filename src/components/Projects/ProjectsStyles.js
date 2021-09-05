@@ -29,8 +29,14 @@ export const BlogCard = styled.div`
   width: 400px;
 
   &:hover {
-    box-shadow: 3px 3px 10px rgba(80, 78, 78, 0.5);
-    transform: scale(1.01);
+    box-shadow: 5px 3px 10px rgba(50, 40, 30, 1);
+    box-shadow: -10px -20px 10px rgba(50, 40, 30, 1);
+    transform: scale(0.96);
+    transition-duration: 0.3s;
+    img {
+      transform: scale(1.02);
+      transition-duration: 0.4s;
+    }
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -91,10 +97,10 @@ export const UtilityList = styled.ul`
 
 export const ExternalLinks = styled.a`
   color: #d4c0c0;
-  font-size: 1.6rem;
-  padding: 1rem 1.5rem;
-  background: #6b3030;
-  border-radius: 15px;
+  font-size: 2rem;
+  // padding: 1rem 1.5rem;
+  // background: #6b3030;
+  // border-radius: 15px;
   transition: 0.5s;
   &:hover {
     background: #801414;
