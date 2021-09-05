@@ -15,15 +15,15 @@ const GlobalStyles = createGlobalStyle`
 
   }
   body {
-    font-family: ${props => props.theme.fonts.main};
+    font-family: ${(props) => props.theme.fonts.main};
     font-size: 1.6rem;
-    background: ${props => props.theme.colors.background1};
-    color: ${props => props.theme.colors.primary1};
+    background: ${(props) => props.theme.colors.background1};
+    color: ${(props) => props.theme.colors.primary1};
     cursor: default;
 
   }
   h1,h2,h3,h4,h5,h6,button {
-    font-family: ${props => props.theme.fonts.title};
+    font-family: ${(props) => props.theme.fonts.title};
   }
   a {
     text-decoration: none;
@@ -31,6 +31,27 @@ const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
   }
+
+  input {
+    width: 600px;
+  }
+  textarea {
+    height: 10em;
+    width: 600px;
+  }
+  
+
+  .message-chars-left {
+    width: 600px;
+    margin: auto;
+    text-align: left;
+  }
+
+  .BgAnimation__svg {
+    position: relative;
+    left: 50px;
+  }
+  
 
 `;
 
