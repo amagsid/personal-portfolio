@@ -2,6 +2,10 @@ import React from 'react';
 // import CV from '../../constants/CV.pdf';
 // import { Button } from 'react-bootstrap';
 import { GrDocumentPdf } from 'react-icons/gr';
+import { GrDocumentDownload } from 'react-icons/gr';
+import { BsNewspaper } from 'react-icons/bs';
+import { IoDocumentText } from 'react-icons/io5';
+import blobButton from '../blobButton';
 
 import {
   Section,
@@ -35,8 +39,14 @@ const Hero = () => (
         method='get'
         target='_blank'
       >
+        <blobButton />
         <button className='offset' type='submit'>
-          download my CV <GrDocumentPdf style={{ color: 'white' }} size={20} />{' '}
+          download my CV{' '}
+          <IoDocumentText
+            className='pdf-icon'
+            size={20}
+            style={{ marginLeft: '5px' }}
+          />
         </button>
       </form>
     </LeftSection>

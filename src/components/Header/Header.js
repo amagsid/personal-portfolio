@@ -6,6 +6,7 @@ import {
   AiFillLinkedin,
 } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
+import Logo from '../../../public/images/logo-white.png';
 
 import {
   Container,
@@ -29,7 +30,8 @@ const Header = () => (
             marginBottom: '20px',
           }}
         >
-          <DiCssdeck size='3rem' /> <Span> Portfolio</Span>
+          <img src={Logo} alt='logo' className='my-logo' />
+          {/* <DiCssdeck size='3rem' /> <Span> Portfolio</Span> */}
         </a>
       </Link>
     </Div1>
