@@ -49,7 +49,7 @@ function Contact() {
   return (
     <Container fluid>
       <Row>
-        <Col md={8}>
+        <Col md={8} xs={10}>
           {emailSent && (
             <p>🚀 Your message was sent , I'll get back to you shortly!</p>
           )}
@@ -105,7 +105,7 @@ function Contact() {
             </button>
           </Form>{' '}
         </Col>
-        <Col>
+        <Col md={4} xs={2}>
           <img className='portrait' src={portrait}></img>{' '}
         </Col>
       </Row>

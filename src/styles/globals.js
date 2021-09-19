@@ -78,12 +78,26 @@ const GlobalStyles = createGlobalStyle`
   // }
 
   .portrait{
-    // border-radius: 50%;
     border: .5px solid #ddd;
     border-radius: 5px;
     padding: 3px;
     width: 230px;
+
+    
   }
+
+
+  @media only screen and (max-width: 400px) {
+    .portrait {
+      width: 75px;
+    }
+    .col-2{
+      padding: 0px;
+    }
+    .col-10{
+      padding-right: 2px;
+    }
+    }
 
 
 
