@@ -23,7 +23,7 @@ const Hero = () => (
         I'm Ahmad
       </SectionTitle>
       <SectionText style={{ width: '700px', paddingBottom: '0' }}>
-        Passionate and curious Web developer on the lookout for a junior
+        A passionate and curious Web developer on the lookout for a junior
         position in which I can learn and grow my skills.
         <br />
         <SectionTitle style={{ fontSize: '1.5rem' }}>
@@ -33,12 +33,9 @@ const Hero = () => (
       {/* <a href={CV} download='Ahmad_CV.pdf'>
         <Button>download my CV</Button>{' '}
       </a> */}
-      <form
-        action='https://docs.google.com/presentation/d/1qbSAAHeFpKL9SXeSNA8Wc8BR6har-1OFzQ9qVkAQNfA/edit?usp=sharing'
-        method='get'
-        target='_blank'
-      >
-        <blobButton />
+      <blobButton />
+
+      <a href='/Ahmad Magdy CV.pdf' download target='_blank'>
         <button className='offset' type='submit'>
           download my CV{' '}
           <IoDocumentText
@@ -47,7 +44,7 @@ const Hero = () => (
             style={{ marginLeft: '5px' }}
           />
         </button>
-      </form>
+      </a>
     </LeftSection>
   </Section>
 );
