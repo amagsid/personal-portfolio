@@ -63,7 +63,7 @@ const Projects = () => (
               <Button
                 variant='outline-info'
                 size='lg'
-                href={visit}
+                href={source}
                 target='_blank'
               >
                 Source code
@@ -71,7 +71,7 @@ const Projects = () => (
               <Button
                 variant='outline-light'
                 size='lg'
-                href={source}
+                href={visit}
                 target='_blank'
               >
                 Live demo

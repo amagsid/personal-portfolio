@@ -10,26 +10,6 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'COVID dashboard',
-    description:
-      'Real-time worldwide COVID-19 dashboard with interactive map and detailed stats for each country, built using Leaflet map.',
-    image: '/images/2.gif',
-    tags: ['Gatsby', 'React'],
-    source: 'https://github.com/amagsid/COVID-world-dashboard',
-    visit: 'https://covid19-global-dashboard.netlify.app',
-    id: 1,
-  },
-  {
-    title: 'YumFarm',
-    description:
-      'Full-stack dietary plan subscription service. Built from thr ground up around user/diet preferences. Built using the MERN stack',
-    image: '/images/3.gif',
-    tags: ['MongoDB', 'Express', 'React', 'Node.js'],
-    source: 'https://github.com/amagsid/Farmy',
-    visit: 'https://ohganic.herokuapp.com',
-    id: 2,
-  },
-  {
     title: 'CORD - Chat Instantly',
     description:
       'Using React, Node.js, Chatingine.io, I built a serverless team chat application with which you only need a username to use. Creating a username happens through an API request to Chatengine.io',
@@ -37,6 +17,28 @@ export const projects = [
     tags: ['React', 'Node'],
     source: 'https://github.com/amagsid/chat-app',
     visit: 'https://cord-app.netlify.app',
+    id: 2,
+  },
+
+  {
+    title: 'YumFarm',
+    description:
+      'Full-stack dietary plan subscription service. Built from thr ground up around user/diet preferences. Built using the MERN stack',
+    image: '/images/3.png',
+    tags: ['MongoDB', 'Express', 'React', 'Node.js'],
+    source: 'https://github.com/amagsid/Farmy',
+    visit: 'https://ohganic.herokuapp.com',
+    id: 1,
+  },
+
+  {
+    title: 'COVID dashboard',
+    description:
+      'Real-time worldwide COVID-19 dashboard with interactive map and detailed stats for each country, built using Leaflet map.',
+    image: '/images/2.png',
+    tags: ['Gatsby', 'React'],
+    source: 'https://github.com/amagsid/COVID-world-dashboard',
+    visit: 'https://covid19-global-dashboard.netlify.app',
     id: 3,
   },
 ];

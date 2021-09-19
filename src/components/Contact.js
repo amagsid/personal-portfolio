@@ -76,7 +76,7 @@ function Contact() {
                 size='lg'
                 type='email'
                 name='user_email'
-                placeholder='emailF@example.com'
+                placeholder='email@example.com'
                 {...register('user_email')}
               />
             </Form.Group>
