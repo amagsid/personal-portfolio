@@ -21,11 +21,11 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Throughout my recent study at{' '}
-      <a href='https://www.hackyourfuture.net'>HackYouruture </a>, I studied
-      full-stack web development fundementals and worked with the MERN stack.
-      The capstone of the study was with an Agile food subscription and delivery
-      service.
+      Throughout my study at{' '}
+      <a href='https://www.hackyourfuture.net'>HackYouruture </a> in Amsterdam,
+      I gained knowledge in full-stack web development with a focus on
+      JavaScriot ES6, worked Agile and was mentored by skilled software
+      engineers working in multinational companies.
     </SectionText>
     <List>
       <ListItem>

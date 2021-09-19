@@ -23,9 +23,8 @@ const Hero = () => (
         I'm Ahmad
       </SectionTitle>
       <SectionText style={{ width: '700px', paddingBottom: '0' }}>
-        Aspiring web developer on the lookout for a starter position in which I
-        can put my passion for building seamless experiences into application
-        while learning and growing
+        Passionate and curious Web developer on the lookout for a junior
+        position in which I can learn and grow my skills.
         <br />
         <SectionTitle style={{ fontSize: '1.5rem' }}>
           motto: do it with passion or not at all{' '}

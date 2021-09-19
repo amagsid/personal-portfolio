@@ -65,7 +65,9 @@ const Timeline = () => {
     <Section id='about'>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Achieving a life-long dream to become a programmer, I...{' '}
+        Achieving a life-long dream to become a programmer, I'm currently
+        activly looking for a junior role that puts me on a professional
+        development journey
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
