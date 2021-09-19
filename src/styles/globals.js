@@ -42,7 +42,7 @@ const GlobalStyles = createGlobalStyle`
   
 
   .message-chars-left {
-    width: 600px;
+    width: 700px;
     margin: auto;
     text-align: left;
   }
@@ -78,7 +78,11 @@ const GlobalStyles = createGlobalStyle`
   // }
 
   .portrait{
-    width: 300px;
+    // border-radius: 50%;
+    border: .5px solid #ddd;
+    border-radius: 5px;
+    padding: 3px;
+    width: 230px;
   }
 
 

@@ -29,12 +29,12 @@ export const BlogCard = styled.div`
   width: 400px;
 
   &:hover {
-    box-shadow: 5px 3px 10px rgba(50, 40, 30, 1);
-    box-shadow: -10px -20px 10px rgba(50, 40, 30, 1);
+    // box-shadow: 5px 3px 10px rgba(50, 40, 30, 1);
+    // box-shadow: -10px -20px 10px rgba(50, 40, 30, 1);
     transform: scale(0.96);
     transition-duration: 0.3s;
     img {
-      transform: scale(1.02);
+      transform: scale(1.04);
       transition-duration: 0.4s;
     }
   }
