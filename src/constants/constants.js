@@ -1,26 +1,26 @@
 export const projects = [
   {
-    title: 'CORD - Chat Instantly',
+    title: 'ProShop',
     description:
-      'Using React, Node.js, Chatingine.io, I built a serverless team chat application with which you only need a username t use. Creating a username happens through an API request to Chatengine.io',
+      'Using the MERN stack, I built an E-commerce platform with authentication, admin dashboard and the ability to checkout using Paypal.',
     image: '/images/1.png',
-    tags: ['React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['React', 'Node', 'Mongo', 'Express'],
+    source: 'https://github.com/amagsid/PROSHOP/tree/main',
+    visit: 'https://proshopappbyvaida.herokuapp.com',
     id: 0,
   },
   {
-    title: 'E-Commerce',
+    title: 'COVID dashboard',
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      'Real-time worldwide COVID-19 dashboard with interactive map and detailed stats for each country',
+    image: '/images/2.gif',
+    tags: ['Gatsby', 'React'],
+    source: 'https://github.com/amagsid/COVID-world-dashboard',
+    visit: 'https://covid19-global-dashboard.netlify.app',
     id: 1,
   },
   {
-    title: 'WebRTC App',
+    title: 'YumFarm',
     description:
       "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
     image: '/images/3.jpg',
@@ -30,14 +30,14 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Unichat',
+    title: 'CORD - Chat Instantly',
     description:
-      'This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application',
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 3,
+      'Using React, Node.js, Chatingine.io, I built a serverless team chat application with which you only need a username to use. Creating a username happens through an API request to Chatengine.io',
+    image: '/images/4.png',
+    tags: ['React', 'Node'],
+    source: 'https://github.com/amagsid/chat-app',
+    visit: 'https://cord-app.netlify.app',
+    id: 4,
   },
 ];
 
